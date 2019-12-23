@@ -1,0 +1,2386 @@
+[
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001D2050",
+      "skyrimse_1_5_97.exe": "0x001D2050"
+    },
+    "label": "ConsoleManager::Print",
+    "signature": "53 48 8B 03 48 8B CB 48 89 74 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C02260",
+      "skyrimse_1_5_97.exe": "0x00C02260"
+    },
+    "label": "Heap::Allocate",
+    "signature": "48 89 5C 24 20 55 57 41 54 41 55 41 57 48 83 EC 30 65 48 8B 04 25 58 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00D2E7F0",
+      "skyrimse_1_5_97.exe": "0x00D2ECA0"
+    },
+    "label": "TESProcessor::dtor",
+    "signature": "48 8D 05 ?? ?? ?? ?? 48 89 01 48 C7 05 ?? ?? ?? ?? ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC CC CC 48 8B 44 24 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C02560",
+      "skyrimse_1_5_97.exe": "0x00C02560"
+    },
+    "label": "Heap::Free",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 48 89 5C 24 08 48 89 54 24 10 57 48 83 EC 20 80 39 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00181800",
+      "skyrimse_1_5_97.exe": "0x00181800"
+    },
+    "label": "TESProcessor::Impl_Process",
+    "signature": "48 89 5C 24 08 48 89 6C 24 18 56 57 41 56 48 83 EC 30 4C 8B F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0085C2C0",
+      "skyrimse_1_5_97.exe": "0x0085C2C0"
+    },
+    "label": "ConsoleManager::VPrint",
+    "signature": "48 8B C4 57 41 54 41 55 41 56 41 57 48 83 EC 40 48 C7 40 C8 FE FF FF FF 48 89 58 10 48 89 68 18 48 89 70 20 4D 8B F8 4C 8B E2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0010CC40",
+      "skyrimse_1_5_97.exe": "0x0010CC40"
+    },
+    "label": "BaseExtraList::CheckContainerExtraData_Internal",
+    "signature": "40 56 57 41 56 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 58 48 89 6C 24 60 0F B6 EA 48 8B F9 48 8D 59 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00111420",
+      "skyrimse_1_5_97.exe": "0x00111420"
+    },
+    "label": "BaseExtraList::GetExtraTextDisplayData_Internal",
+    "signature": "40 53 55 56 57 48 83 EC 48 48 C7 44 24 20 FE FF FF FF 48 8B E9 48 8D 59 10 48 89 5C 24 28 48 8B CB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x004F5C80",
+      "skyrimse_1_5_97.exe": "0x004F5C80"
+    },
+    "label": "TESCamera::SetCameraState",
+    "signature": "48 8B 53 50 48 8B CB E8 *?? ?? ?? ?? 90 48 8B C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001F5390",
+      "skyrimse_1_5_97.exe": "0x001F5390"
+    },
+    "label": "LocalMapCamera::ctor",
+    "signature": "48 89 4C 24 08 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 50 48 89 74 24 58 48 8B D9 E8 ?? ?? ?? ?? 90 48 8D 05 ?? ?? ?? ?? 48 89 03 F3 0F 10 05 ?? ?? ?? ?? F3 0F 11 43 38"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001F5750",
+      "skyrimse_1_5_97.exe": "0x001F5750"
+    },
+    "label": "LocalMapCamera::SetNorthRotation",
+    "signature": "48 8B C4 53 48 81 EC C0 00 00 00 0F 28 05 ?? ?? ?? ?? 48 8B D9 0F 28 15 ?? ?? ?? ?? 0F 29 70 E8 0F 29 78 D8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0084D630",
+      "skyrimse_1_5_97.exe": "0x0084D630"
+    },
+    "label": "PlayerCamera::UpdateThirdPerson",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 0F B6 FA 48 8B 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 84 C0 74 ?? 48 8B 8B 08 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001713D0",
+      "skyrimse_1_5_97.exe": "0x001713D0"
+    },
+    "label": "DataHandler::LoadScripts",
+    "signature": "48 89 5C 24 18 57 48 83 EC 20 48 8D B9 D8 01 00 00 48 8B CF 48 8D 54 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00637A80",
+      "skyrimse_1_5_97.exe": "0x00637A80"
+    },
+    "label": "EquipManager::EquipItem",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 57 48 83 EC 50 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 60 48 89 6C 24 70"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00638190",
+      "skyrimse_1_5_97.exe": "0x00638190"
+    },
+    "label": "EquipManager::UnequipItem",
+    "signature": "48 8B C4 57 41 56 41 57 48 83 EC 50 48 C7 40 B8 FE FF FF FF 48 89 58 08 48 89 68 18"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D4F90",
+      "skyrimse_1_5_97.exe": "0x003D4F90"
+    },
+    "label": "MorphDatabase::GetFaceGenModelMapEntry",
+    "signature": "40 55 56 57 41 56 41 57 48 83 EC 40 48 C7 44 24 38 FE FF FF FF 48 89 5C 24 70"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D4D80",
+      "skyrimse_1_5_97.exe": "0x003D4D80"
+    },
+    "label": "MorphDatabase::SetFaceGenModelMapEntry",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 55 56 57 48 83 EC 60 48 C7 44 24 48 FE FF FF FF 48 89 9C 24 80 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D2A60",
+      "skyrimse_1_5_97.exe": "0x003D2A60"
+    },
+    "label": "FaceGen::RegenerateHead",
+    "signature": "48 8B C4 55 41 54 41 55 41 56 41 57 48 8D 68 B8 48 81 EC 20 01 00 00 48 C7 44 24 60 FE FF FF FF 48 89 58 08"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D2380",
+      "skyrimse_1_5_97.exe": "0x003D2380"
+    },
+    "label": "FaceGen::ApplyMorph",
+    "signature": "4D 85 C0 0F 84 ?? ?? ?? ?? 57 48 83 EC 50 48 C7 44 24 40 FE FF FF FF 48 89 5C 24 60"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0059F0F0",
+      "skyrimse_1_5_97.exe": "0x0059F0F0"
+    },
+    "label": "PersistentFormManager::CreateOffensiveEnchantment",
+    "signature": "80 78 1A 29 75 ?? E8 *?? ?? ?? ?? EB ?? E8 ?? ?? ?? ?? 48 8B F8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0059F190",
+      "skyrimse_1_5_97.exe": "0x0059F190"
+    },
+    "label": "PersistentFormManager::CreateDefensiveEnchantment",
+    "signature": "80 78 1A 29 75 ?? E8 ?? ?? ?? ?? EB ?? E8 *?? ?? ?? ?? 48 8B F8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0059F2E0",
+      "skyrimse_1_5_97.exe": "0x0059F2E0"
+    },
+    "label": "PersistentFormManager::CreatePoison",
+    "signature": "45 84 F6 74 ?? E8 *?? ?? ?? ?? EB ?? E8 ?? ?? ?? ?? 90"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0059F230",
+      "skyrimse_1_5_97.exe": "0x0059F230"
+    },
+    "label": "PersistentFormManager::CreatePotion",
+    "signature": "45 84 F6 74 ?? E8 ?? ?? ?? ?? EB ?? E8 *?? ?? ?? ?? 90"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0068A0F0",
+      "skyrimse_1_5_97.exe": "0x0068A0F0"
+    },
+    "label": "PersistentFormManager::AddPersistentForm",
+    "signature": "74 ?? E8 ?? ?? ?? ?? 84 C0 75 ?? 33 D2 49 8B CF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0059F6E0",
+      "skyrimse_1_5_97.exe": "0x0059F6E0"
+    },
+    "label": "PersistentFormManager::ScheduleForDeletion",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 55 56 57 41 54 41 55 41 56 41 57 48 8B EC 48 83 EC 60 48 C7 45 E0 FE FF FF FF 48 89 9C 24 A0 00 00 00 48 8B F2 48 8B F9 48 8D 99 C8 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00586DE0",
+      "skyrimse_1_5_97.exe": "0x00586DE0"
+    },
+    "label": "BGSSaveLoadManager::Save_Internal",
+    "signature": "44 89 44 24 18 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 10 FF FF FF 48 81 EC F0 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00587350",
+      "skyrimse_1_5_97.exe": "0x00587350"
+    },
+    "label": "BGSSaveLoadManager::Load_Internal",
+    "signature": "48 8B C4 48 89 58 10 57 48 81 EC 60 01 00 00 48 8B DA 66 C7 40 08 02 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0057CCC0",
+      "skyrimse_1_5_97.exe": "0x0057CCC0"
+    },
+    "label": "BGSSaveLoadManager::SaveGame_HookTarget",
+    "signature": "40 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 B8 FD FF FF 48 81 EC 48 03 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0057D1A0",
+      "skyrimse_1_5_97.exe": "0x0057D1A0"
+    },
+    "label": "BGSSaveLoadManager::LoadGame_HookTarget",
+    "signature": "40 55 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 00 FD FF FF 48 81 EC 00 04 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00589A60",
+      "skyrimse_1_5_97.exe": "0x00589A60"
+    },
+    "label": "BGSSaveLoadManager::ProcessEvents_Internal",
+    "signature": "83 C3 FF 75 ?? 48 8B 0D ?? ?? ?? ?? E8 *?? ?? ?? ?? 33 C9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00586D70",
+      "skyrimse_1_5_97.exe": "0x00586D70"
+    },
+    "label": "BGSSaveLoadManager::DeleteSavegame",
+    "signature": "40 53 48 81 EC 60 01 00 00 45 33 C0 48 8D 4C 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0056B600",
+      "skyrimse_1_5_97.exe": "0x0056B600"
+    },
+    "label": "EventDispatcher::AddEventSink_Internal",
+    "signature": "48 83 C1 60 48 8D 56 08 E8 *?? ?? ?? ?? 48 8B CE"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00423B70",
+      "skyrimse_1_5_97.exe": "0x00423B70"
+    },
+    "label": "EventDispatcher::RemoveEventSink_Internal",
+    "signature": "48 8B D6 48 8D 88 18 0E 00 00 E8 *?? ?? ?? ?? 48 8D B3 40 01 00 00 48 85 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00177DC0",
+      "skyrimse_1_5_97.exe": "0x00177DC0"
+    },
+    "label": "EventDispatcher::SendEvent_Internal",
+    "signature": "48 8D 94 24 D8 03 00 00 48 8B 0D ?? ?? ?? ?? E8 *?? ?? ?? ?? 90 41 89 1E B0 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001D73C0",
+      "skyrimse_1_5_97.exe": "0x001D73C0"
+    },
+    "label": "InventoryEntryData::GenerateName",
+    "signature": "48 83 EC 48 48 89 5C 24 58 48 89 7C 24 40 48 8B F9 48 8B 49 08 0F 29 74 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001D66E0",
+      "skyrimse_1_5_97.exe": "0x001D66E0"
+    },
+    "label": "InventoryEntryData::GetValue",
+    "signature": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 48 89 7C 24 20 41 56 48 83 EC 40 48 8B 79 08"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001D7510",
+      "skyrimse_1_5_97.exe": "0x001D7510"
+    },
+    "label": "InventoryEntryData::IsOwnedBy",
+    "signature": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B 59 08 41 0F B6 F0 48 8B EA 48 8B F9 48 85 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001D6860",
+      "skyrimse_1_5_97.exe": "0x001D6860"
+    },
+    "label": "InventoryEntryData::GetSoulLevel",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B 59 08 33 FF 48 8B F1 48 85 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001ECC60",
+      "skyrimse_1_5_97.exe": "0x001ECC60"
+    },
+    "label": "ExtraContainerChanges::Data::SetUniqueID",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 48 8B C4 48 89 58 20 55 57 41 56 48 83 EC 40 48 8B DA"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001ECE20",
+      "skyrimse_1_5_97.exe": "0x001ECE20"
+    },
+    "label": "ExtraContainerChanges::Data::TransferItemUID",
+    "signature": "40 53 55 56 57 41 56 41 57 48 83 EC 48 48 C7 44 24 20 FE FF FF FF 48 8B DA 4C 8B F9 33 FF 4D 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0013C870",
+      "skyrimse_1_5_97.exe": "0x0013C870"
+    },
+    "label": "ExtraTextDisplayData::SetName_Internal",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 83 79 18 00 48 8B FA 48 8B D9 75 ?? 48 83 79 20 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0013C740",
+      "skyrimse_1_5_97.exe": "0x0013C740"
+    },
+    "label": "ExtraTextDisplayData::GenerateName_Internal",
+    "signature": "40 57 48 83 EC 50 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 60 48 89 74 24 68 0F 29 74 24 40 0F 28 F2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00190480",
+      "skyrimse_1_5_97.exe": "0x00190480"
+    },
+    "label": "TESDescription::Get",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 30 48 8B 05 ?? ?? ?? ?? 41 8B F9 48 8B F2 48 8B D9 80 B8 A8 0D 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001C61A0",
+      "skyrimse_1_5_97.exe": "0x001C61A0"
+    },
+    "label": "ActorWeightData::UpdateWeightData",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 89 74 24 50 48 8B F9 48 8D 0D ?? ?? ?? ?? 48 89 4C 24 48 33 D2 E8 ?? ?? ?? ?? 90"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001C60A0",
+      "skyrimse_1_5_97.exe": "0x001C60A0"
+    },
+    "label": "ActorWeightData::DeleteThis",
+    "signature": "40 53 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 8B D9 E8 ?? ?? ?? ?? 90 48 8D 8B ?? ?? ?? ?? 4C 8D 0D ?? ?? ?? ?? BA 78 00 00 00 44 8D 42 B2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0067E3B0",
+      "skyrimse_1_5_97.exe": "0x0067E3B0"
+    },
+    "label": "ActorProcessManager::SetEquipFlag",
+    "signature": "48 8B 41 08 48 85 C0 74 ?? 08 90 11 03 00 00 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00650DF0",
+      "skyrimse_1_5_97.exe": "0x00650DF0"
+    },
+    "label": "ActorProcessManager::UpdateEquipment",
+    "signature": "40 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 78 48 8B F2 4C 8B F1 48 83 79 10 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0065C880",
+      "skyrimse_1_5_97.exe": "0x0065C880"
+    },
+    "label": "ActorProcessManager::SetDataFlag",
+    "signature": "48 8B 41 10 48 85 C0 74 ?? F3 0F 11 88 E4 01 00 00 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006E6130",
+      "skyrimse_1_5_97.exe": "0x006E6130"
+    },
+    "label": "PlayerSkills::GetSkillData",
+    "signature": "4C 8B 11 8D 42 FA 48 8D 48 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006E6620",
+      "skyrimse_1_5_97.exe": "0x006E6620"
+    },
+    "label": "PlayerSkills::IncrementLegendary",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B 01 83 C2 FA"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006E65C0",
+      "skyrimse_1_5_97.exe": "0x006E65C0"
+    },
+    "label": "PlayerSkills::SetLevel",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B F9 8B DA 48 8B 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 0F B7 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x002C53D0",
+      "skyrimse_1_5_97.exe": "0x002C53D0"
+    },
+    "label": "BGSListForm::AddFormToList",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 48 89 54 24 10 57 48 83 EC 40 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 50 48 89 74 24 60"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x002C5570",
+      "skyrimse_1_5_97.exe": "0x002C5570"
+    },
+    "label": "BGSListForm::RemoveFormFromList",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 53 48 83 EC 20 83 79 40 00 4C 8B D2 48 8B D9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x002C5300",
+      "skyrimse_1_5_97.exe": "0x002C5300"
+    },
+    "label": "BGSListForm::RevertList",
+    "signature": "40 57 48 83 EC 40 48 C7 44 24 30 FE FF FF FF 48 89 5C 24 50 48 89 74 24 58 48 8B D9 48 8B 79 38 48 85 FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00375050",
+      "skyrimse_1_5_97.exe": "0x00375050"
+    },
+    "label": "TESQuest::ForceRefTo",
+    "signature": "89 54 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8B EC 48 83 EC 70 48 C7 45 D8 FE FF FF FF 48 89 9C 24 B0 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00370910",
+      "skyrimse_1_5_97.exe": "0x00370910"
+    },
+    "label": "TESQuest::NewGame_Internal",
+    "signature": "48 89 5C 24 18 56 48 83 EC 20 C6 02 00 48 8B F2 F6 81 DC 00 00 00 01 48 8B D9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0026D510",
+      "skyrimse_1_5_97.exe": "0x0026D510"
+    },
+    "label": "TESObjectCELL::GetNorthRotation",
+    "signature": "F6 41 40 01 74 ?? 48 83 C1 48 E9 ?? ?? ?? ?? 48 8B 81 20 01 00 00 F3 0F 10 80 48 03 00 00 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x007209A0",
+      "skyrimse_1_5_97.exe": "0x007209A0"
+    },
+    "label": "WeaponRightSwingHandler::Process_Origin",
+    "signature": "40 53 48 83 EC 20 81 A2 C0 00 00 00 FF FF FF 0F 48 8B DA 81 8A C0 00 00 00 00 00 00 20 48 8B CB 48 8D 54 24 38 C7 44 24 38 01 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720A30",
+      "skyrimse_1_5_97.exe": "0x00720A30"
+    },
+    "label": "WeaponLeftSwingHandler::Process_Origin",
+    "signature": "40 53 48 83 EC 20 81 A2 C0 00 00 00 FF FF FF 0F 48 8B DA 81 8A C0 00 00 00 00 00 00 20 48 8B CB 48 8D 54 24 38 C7 44 24 38 00 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720BF0",
+      "skyrimse_1_5_97.exe": "0x00720BF0"
+    },
+    "label": "RightHandSpellFireHandler::Process_Origin",
+    "signature": "48 83 EC 28 48 8B 02 48 8B CA BA 01 00 00 00 FF 90 E0 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720BA0",
+      "skyrimse_1_5_97.exe": "0x00720BA0"
+    },
+    "label": "LeftHandSpellFireHandler::Process_Origin",
+    "signature": "48 83 EC 28 48 8B 02 48 8B CA 33 D2 FF 90 E0 02 00 00 48 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720DB0",
+      "skyrimse_1_5_97.exe": "0x00720DB0"
+    },
+    "label": "RightHandSpellCastHandler::Process_Origin",
+    "signature": "40 53 48 83 EC 20 48 8B 02 48 8B CA BA 01 00 00 00 FF 90 E0 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720D60",
+      "skyrimse_1_5_97.exe": "0x00720D60"
+    },
+    "label": "LeftHandSpellCastHandler::Process_Origin",
+    "signature": "40 53 48 83 EC 20 48 8B 02 48 8B CA 33 D2 FF 90 E0 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720C40",
+      "skyrimse_1_5_97.exe": "0x00720C40"
+    },
+    "label": "VoiceSpellCastHandler::Process_Origin",
+    "signature": "48 89 5C 24 10 57 48 83 EC 30 48 8B 9A F0 00 00 00 48 8B FA 48 85 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00721EF0",
+      "skyrimse_1_5_97.exe": "0x00721EF0"
+    },
+    "label": "BowDrawnHandler::Process_Origin",
+    "signature": "81 A2 C0 00 00 00 FF FF FF 0F B0 01 81 8A C0 00 00 00 00 00 00 A0 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00721F10",
+      "skyrimse_1_5_97.exe": "0x00721F10"
+    },
+    "label": "BowReleaseHandler::Process_Origin",
+    "signature": "81 A2 C0 00 00 00 FF FF FF 0F B0 01 81 8A C0 00 00 00 00 00 00 B0 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720E90",
+      "skyrimse_1_5_97.exe": "0x00720E90"
+    },
+    "label": "WeaponBeginDrawRightHandler::Process_Origin",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B FA C7 44 24 38 01 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720F40",
+      "skyrimse_1_5_97.exe": "0x00720F40"
+    },
+    "label": "WeaponBeginSheatheRightHandler::Process_Origin",
+    "signature": "40 57 48 83 EC 20 48 8B FA C7 44 24 48 01 00 00 00 48 8B CF 48 8D 54 24 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00720FB0",
+      "skyrimse_1_5_97.exe": "0x00720FB0"
+    },
+    "label": "RightHandWeaponDrawHandler::Process_Origin",
+    "signature": "48 89 5C 24 08 48 89 74 24 18 57 48 83 EC 20 48 8B FA C7 44 24 38 01 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00721110",
+      "skyrimse_1_5_97.exe": "0x00721110"
+    },
+    "label": "RightHandWeaponSheatheHandler::Process_Origin",
+    "signature": "48 83 C4 20 5F C3 CC CC CC CC CC CC CC CC CC CC CC *48 83 EC 28 48 8B CA"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00704970",
+      "skyrimse_1_5_97.exe": "0x00704970"
+    },
+    "label": "PlayerControls::ctor",
+    "signature": "48 89 4D 77 48 89 4D 6F E8 *?? ?? ?? ?? 90 48 89 05 ?? ?? ?? ?? 43 89 1C 34"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECD4C0",
+      "skyrimse_1_5_97.exe": "0x00ECD970"
+    },
+    "label": "IMenu::InitMovie_internal",
+    "signature": "48 8B D3 48 8B CF E8 *?? ?? ?? ?? 90 8B 44 24 40 C1 E8 06 A8 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECD3F0",
+      "skyrimse_1_5_97.exe": "0x00ECD8A0"
+    },
+    "label": "IMenu::NextFrame_internal",
+    "signature": "40 53 48 83 EC 50 48 C7 44 24 20 FE FF FF FF 0F 29 74 24 40 0F 28 F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECD3A0",
+      "skyrimse_1_5_97.exe": "0x00ECD850"
+    },
+    "label": "IMenu::ProcessMessage_internal",
+    "signature": "48 83 EC 28 44 8B 42 08 41 83 F8 06 75 ?? 48 8B 49 10 48 85 C9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECD340",
+      "skyrimse_1_5_97.exe": "0x00ECD7F0"
+    },
+    "label": "IMenu::dtor",
+    "signature": "48 8B 8A 50 00 00 00 E9 *?? ?? ?? ?? 48 8B 8A 50 00 00 00 48 83 C1 30 E9 ?? ?? ?? ?? 48 8B 8A 50 00 00 00 48 83 C1 40 E9 ?? ?? ?? ?? 48 8B 8A 50 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x008B5E20",
+      "skyrimse_1_5_97.exe": "0x008B5E20"
+    },
+    "label": "RaceSexMenu::LoadSliders",
+    "signature": "48 8B C4 48 89 50 10 48 89 48 08 55 56 57 41 54 41 55 41 56 41 57 48 8D A8 D8 FC FF FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0086F130",
+      "skyrimse_1_5_97.exe": "0x0086F130"
+    },
+    "label": "EnchantConstructMenu::CategoryListEntry::SetData",
+    "signature": "40 55 48 8B EC 48 83 EC 50 48 C7 45 E0 FE FF FF FF 48 89 5C 24 60 48 89 7C 24 68 48 8B DA 48 8B F9 66 0F 6E 41 0C"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x001652D0",
+      "skyrimse_1_5_97.exe": "0x001652D0"
+    },
+    "label": "UIManager::AddMessage",
+    "signature": "40 56 57 41 56 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 58 48 89 6C 24 60 49 8B F1 41 8B E8 4C 8B F2 48 8B F9 8B 81 78 03 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC2D20",
+      "skyrimse_1_5_97.exe": "0x00EC31D0"
+    },
+    "label": "UIManager::CreateUIMessageData",
+    "signature": "48 89 5C 24 20 56 57 41 56 48 83 EC 20 33 F6 4C 8B F2 89 74 24 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC2C40",
+      "skyrimse_1_5_97.exe": "0x00EC30F0"
+    },
+    "label": "UIManager::ProcessEventQueue_HookTarget",
+    "signature": "48 89 5C 24 10 48 89 6C 24 18 56 48 83 EC 20 33 ED 48 8B F1 8B DD 39 99 78 03 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00887970",
+      "skyrimse_1_5_97.exe": "0x00887970"
+    },
+    "label": "Inventory3DManager::UpdateItem3D",
+    "signature": "48 85 D2 74 ?? 48 8B 42 08 48 85 C0 74 ?? 4C 8B 00 48 8B 12"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x008879A0",
+      "skyrimse_1_5_97.exe": "0x008879A0"
+    },
+    "label": "Inventory3DManager::UpdateMagic3D",
+    "signature": "4C 8B DC 57 41 54 41 55 41 56 41 57 48 83 EC 40 49 C7 43 D0 FE FF FF FF 49 89 5B 08 49 89 6B 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00887D10",
+      "skyrimse_1_5_97.exe": "0x00887D10"
+    },
+    "label": "Inventory3DManager::Clear3D",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 8B F9 48 8B 91 50 01 00 00 48 85 D2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00887750",
+      "skyrimse_1_5_97.exe": "0x00887750"
+    },
+    "label": "Inventory3DManager::Render",
+    "signature": "40 53 48 83 EC 20 48 8B 81 50 01 00 00 48 8B D9 48 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EBDCA0",
+      "skyrimse_1_5_97.exe": "0x00EBE150"
+    },
+    "label": "MenuManager::IsMenuOpen",
+    "signature": "48 8B C4 41 56 48 83 EC 40 48 C7 40 D8 FE FF FF FF 48 89 58 10 48 89 70 18 48 89 78 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EBF510",
+      "skyrimse_1_5_97.exe": "0x00EBF9C0"
+    },
+    "label": "MenuManager::Register_internal",
+    "signature": "48 8B C4 53 56 57 48 83 EC 50 48 C7 40 C8 FE FF FF FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012C8E70",
+      "skyrimse_1_5_97.exe": "0x012C9320"
+    },
+    "label": "BSShaderTextureSet::ctor",
+    "signature": "E8 *?? ?? ?? ?? 48 8B D8 48 8B 47 78 48 8B 48 78"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00101CC0",
+      "skyrimse_1_5_97.exe": "0x00101CC0"
+    },
+    "label": "MagicItem::GetCostliestEffectItem",
+    "signature": "4C 8B DC 57 48 83 EC 50 49 C7 43 C8 FE FF FF FF 49 89 5B 10 49 89 73 18 33 C0 49 89 43 D8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00101A30",
+      "skyrimse_1_5_97.exe": "0x00101A30"
+    },
+    "label": "MagicItem::GetEffectiveMagickaCost",
+    "signature": "48 89 5C 24 10 48 89 6C 24 18 48 89 74 24 20 57 48 83 EC 30 48 8B 01 48 8B EA 0F 29 74 24 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003512A0",
+      "skyrimse_1_5_97.exe": "0x003512A0"
+    },
+    "label": "TESNPC::GetSex",
+    "signature": "80 79 1A 2B 75 ?? 0F B6 41 38 83 E0 01 C3 83 C8 FF C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00368A20",
+      "skyrimse_1_5_97.exe": "0x00368A20"
+    },
+    "label": "TESNPC::HasOverlays",
+    "signature": "48 89 5C 24 20 57 48 83 EC 20 83 79 14 07 48 8B F9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00365BF0",
+      "skyrimse_1_5_97.exe": "0x00365BF0"
+    },
+    "label": "TESNPC::ChangeHeadPart",
+    "signature": "48 89 54 24 10 55 56 57 41 54 41 55 41 56 41 57 48 8D 6C 24 D9 48 81 EC A0 00 00 00 48 C7 45 B7 FE FF FF FF 48 89 9C 24 F8 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003606D0",
+      "skyrimse_1_5_97.exe": "0x003606D0"
+    },
+    "label": "TESNPC::UpdateNeck",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 89 74 24 58 48 8B FA 48 8B F1 48 8B DA"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00360480",
+      "skyrimse_1_5_97.exe": "0x00360480"
+    },
+    "label": "TESNPC::SetSkinFromTint",
+    "signature": "48 8B C4 41 56 48 83 EC 50 48 C7 40 C8 FE FF FF FF 48 89 58 08 48 89 68 10 48 89 70 18 48 89 78 20 0F 29 70 E8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0028CC60",
+      "skyrimse_1_5_97.exe": "0x0028CC60"
+    },
+    "label": "TESObjectREFR::GetBaseScale",
+    "signature": "48 83 EC 38 0F B7 81 90 00 00 00 48 8B 49 40 0F 29 74 24 20 66 0F 6E F0 0F 5B F6"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0029A330",
+      "skyrimse_1_5_97.exe": "0x0029A330"
+    },
+    "label": "TESObjectREFR::IsOffLimits",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20 48 8B F9 32 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x002A6FF0",
+      "skyrimse_1_5_97.exe": "0x002A6FF0"
+    },
+    "label": "TESObjectREFR::GetWeight",
+    "signature": "48 8B 4C 24 58 E8 *?? ?? ?? ?? 0F 28 F8 F3 41 0F 59 FB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x002961F0",
+      "skyrimse_1_5_97.exe": "0x002961F0"
+    },
+    "label": "TESObjectREFR::GetReferenceName",
+    "signature": "40 53 55 56 57 41 54 41 55 41 56 41 57 48 83 EC 58 48 C7 44 24 20 FE FF FF FF 0F 29 74 24 40 0F 29 7C 24 30 4C 8B F9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00299750",
+      "skyrimse_1_5_97.exe": "0x00299750"
+    },
+    "label": "TESObjectREFR::GetWorldspace",
+    "signature": "48 83 EC 28 48 8B 41 60 48 85 C0 75 ?? 48 8B 01 FF 90 B8 04 00 00 48 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00693110",
+      "skyrimse_1_5_97.exe": "0x00693110"
+    },
+    "label": "Actor::QueueNiNodeUpdate",
+    "signature": "40 55 56 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 50 0F B6 DA 48 8B F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005F9E30",
+      "skyrimse_1_5_97.exe": "0x005F9E30"
+    },
+    "label": "Actor::HasPerk",
+    "signature": "48 83 EC 28 48 8B 81 F0 00 00 00 48 85 C0 74 ?? 4C 8B C2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005D62E0",
+      "skyrimse_1_5_97.exe": "0x005D62E0"
+    },
+    "label": "Actor::GetLevel",
+    "signature": "48 8B 49 40 48 83 C1 30 E9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00607680",
+      "skyrimse_1_5_97.exe": "0x00607680"
+    },
+    "label": "Actor::SetRace",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 41 56 48 83 EC 40 48 C7 44 24 30 FE FF FF FF 48 89 5C 24 50 48 89 6C 24 58"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006313D0",
+      "skyrimse_1_5_97.exe": "0x006313D0"
+    },
+    "label": "Actor::UpdateWeaponAbility",
+    "signature": "48 85 D2 0F 84 ?? ?? ?? ?? 48 89 6C 24 18 56 57 41 56 48 83 EC 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00631360",
+      "skyrimse_1_5_97.exe": "0x00631360"
+    },
+    "label": "Actor::UpdateArmorAbility",
+    "signature": "48 89 5C 24 10 56 48 83 EC 20 80 7A 1A 1A"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005E7E40",
+      "skyrimse_1_5_97.exe": "0x005E7E40"
+    },
+    "label": "Actor::IsHostileToActor",
+    "signature": "48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B F2 48 8B D9 40 32 FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005DB310",
+      "skyrimse_1_5_97.exe": "0x005DB310"
+    },
+    "label": "Actor::ResetAI",
+    "signature": "45 33 C0 33 D2 48 8B C8 E8 *?? ?? ?? ?? B0 01 48 83 C4 38 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006B5450",
+      "skyrimse_1_5_97.exe": "0x006B5450"
+    },
+    "label": "PlayerCharacter::GetNumTints",
+    "signature": "44 8B 81 20 0B 00 00 33 C0 45 85 C0 74 ?? 48 8B 89 10 0B 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x006B52A0",
+      "skyrimse_1_5_97.exe": "0x006B52A0"
+    },
+    "label": "PlayerCharacter::GetTintMask",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 44 8B 99 20 0B 00 00 45 33 C9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00693050",
+      "skyrimse_1_5_97.exe": "0x00693050"
+    },
+    "label": "PlayerCharacter::GetDamage",
+    "signature": "40 57 48 83 EC 20 48 8B F9 48 85 D2 74 ?? 48 89 5C 24 30 48 8B 1A"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00692CD0",
+      "skyrimse_1_5_97.exe": "0x00692CD0"
+    },
+    "label": "PlayerCharacter::GetArmorValue",
+    "signature": "40 57 48 83 EC 50 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 68 48 8B FA 48 8D 05 ?? ?? ?? ?? 48 89 44 24 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003104D0",
+      "skyrimse_1_5_97.exe": "0x003104D0"
+    },
+    "label": "SettingCollectionList::Get_Internal",
+    "signature": "40 56 48 83 EC 20 48 8B F2 48 85 D2 74 ?? 48 8D 81 18 01 00 00 48 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01311C00",
+      "skyrimse_1_5_97.exe": "0x013120B0"
+    },
+    "label": "NiMemStream::Construct",
+    "signature": "48 89 4C 24 08 53 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 8B D9 E8 ?? ?? ?? ?? 90 48 8D 05 ?? ?? ?? ?? 48 89 03 C7 43 30 00 04 00 00 B9 00 04 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01311C70",
+      "skyrimse_1_5_97.exe": "0x01312120"
+    },
+    "label": "NiMemStream::Destroy",
+    "signature": "40 53 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 80 79 34 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01311D00",
+      "skyrimse_1_5_97.exe": "0x013121B0"
+    },
+    "label": "NiMemStream::Seek",
+    "signature": "44 8B 41 28 44 03 C2 78 ?? 44 3B 41 30 73 ?? 44 89 41 28 44 89 41 08 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C251B0",
+      "skyrimse_1_5_97.exe": "0x00C25660"
+    },
+    "label": "NiMemStream::GetOffset",
+    "signature": "8B 41 08 C3 CC CC CC CC CC CC CC CC CC CC CC CC 33 C0 48 89 02 48 89 42 08"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01311CD0",
+      "skyrimse_1_5_97.exe": "0x01312180"
+    },
+    "label": "NiMemStream::CopyFrom",
+    "signature": "48 8B 41 20 48 89 02 8B 41 2C 89 42 08 8B 41 2C 89 42 0C 8B 41 2C"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01311D40",
+      "skyrimse_1_5_97.exe": "0x013121F0"
+    },
+    "label": "NiMemStream::FunctionSwap",
+    "signature": "88 51 35 C3 CC CC CC CC CC CC CC CC CC CC CC CC *84 D2 74 ?? 48 8D 05 ?? ?? ?? ?? 48 89 41 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C75BB0",
+      "skyrimse_1_5_97.exe": "0x00C76060"
+    },
+    "label": "BSResourceNiBinaryStream::Construct",
+    "signature": "48 8D 55 B0 48 8B C8 E8 *?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 49 89 07"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C76110",
+      "skyrimse_1_5_97.exe": "0x00C765C0"
+    },
+    "label": "BSResourceNiBinaryStream::ReadLine",
+    "signature": "48 89 5C 24 10 56 57 41 56 48 83 EC 40 33 F6 45 8B F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C76300",
+      "skyrimse_1_5_97.exe": "0x00C767B0"
+    },
+    "label": "BSResourceNiBinaryStream::Read",
+    "signature": "49 89 6F 20 49 89 6F 28 49 89 6F 30 48 8D 05 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C76370",
+      "skyrimse_1_5_97.exe": "0x00C76820"
+    },
+    "label": "BSResourceNiBinaryStream::Write",
+    "signature": "48 8D 05 *?? ?? ?? ?? 49 89 47 18 4C 8B CB 44 0F B6 C7 49 8D 57 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C75E90",
+      "skyrimse_1_5_97.exe": "0x00C76340"
+    },
+    "label": "BSResourceNiBinaryStream::Destroy",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B 41 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C75FD0",
+      "skyrimse_1_5_97.exe": "0x00C76480"
+    },
+    "label": "BSResourceNiBinaryStream::IsValid",
+    "signature": "33 C0 48 39 41 20 0F 95 C0 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C75FE0",
+      "skyrimse_1_5_97.exe": "0x00C76490"
+    },
+    "label": "BSResourceNiBinaryStream::Seek",
+    "signature": "48 83 79 28 00 4C 8B C9 74 ?? 48 63 C2 48 01 41 30 48 8B 41 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C76030",
+      "skyrimse_1_5_97.exe": "0x00C764E0"
+    },
+    "label": "BSResourceNiBinaryStream::GetOffset",
+    "signature": "48 FF 60 40 C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC *8B 41 30 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C760D0",
+      "skyrimse_1_5_97.exe": "0x00C76580"
+    },
+    "label": "BSResourceNiBinaryStream::EnableEndianSwap",
+    "signature": "84 D2 74 ?? 48 8D 05 05 03 00 00 48 89 41 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005C6BF0",
+      "skyrimse_1_5_97.exe": "0x005C6BF0"
+    },
+    "label": "BSTaskPool::SetNiGeometryTexture",
+    "signature": "40 53 48 81 EC B0 00 00 00 48 C7 44 24 20 FE FF FF FF 48 8B D9 C7 44 24 30 61 00 00 00 48 89 54 24 38 4C 89 44 24 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005C1BE0",
+      "skyrimse_1_5_97.exe": "0x005C1BE0"
+    },
+    "label": "BSTaskPool::ProcessTaskQueue_HookTarget",
+    "signature": "48 8B C4 57 48 81 EC 30 01 00 00 48 C7 44 24 20 FE FF FF FF 48 89 58 10 48 89 70 18 48 8B F9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C072D0",
+      "skyrimse_1_5_97.exe": "0x00C072D0"
+    },
+    "label": "BSReadWriteLock::LockForRead",
+    "signature": "48 89 5C 24 78 48 8B CB E8 *?? ?? ?? ?? 90 48 8D 7D"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C07350",
+      "skyrimse_1_5_97.exe": "0x00C07350"
+    },
+    "label": "BSReadWriteLock::LockForWrite",
+    "signature": "48 89 74 24 18 57 48 83 EC 20 48 8B F9 FF 15 ?? ?? ?? ?? 8B F0 39 07 75"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C07590",
+      "skyrimse_1_5_97.exe": "0x00C07590"
+    },
+    "label": "BSReadWriteLock::UnlockRead",
+    "signature": "BA 25 00 00 00 48 8B CD E8 ?? ?? ?? ?? 48 8B F0 48 85 DB 74 ?? 48 8B CB E8 *?? ?? ?? ?? 90 48 85 F6 74 ?? 0F 2E 35 ?? ?? ?? ?? 75 ?? 41 B0 01 48 8B D6 48 8B CD E8 ?? ?? ?? ?? EB ?? F3 0F 11 76 10 EB ?? 0F 2E 35 ?? ?? ?? ?? 74 ?? 83 3D ?? ?? ?? ?? ?? 74 ?? 48 8D 15 ?? ?? ?? ?? 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 45 33 C9 45 33 C0 41 8D 51 18 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 89 84 24 88 00 00 00 48 85 C0 74 ?? 48 C7 40 08 00 00 00 00 48 8D 0D ?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C075A0",
+      "skyrimse_1_5_97.exe": "0x00C075A0"
+    },
+    "label": "BSReadWriteLock::UnlockWrite",
+    "signature": "8B 41 04 FF C8 3D ?? ?? ?? ?? 75 ?? 33 C0 89 01 0F AE F0 87 41 04 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C07450",
+      "skyrimse_1_5_97.exe": "0x00C07450"
+    },
+    "label": "BSReadWriteLock::LockForReadAndWrite",
+    "signature": "89 38 0F AE F0 48 8B 4C 24 38 E8 *?? ?? ?? ?? 48 8B CE"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C07540",
+      "skyrimse_1_5_97.exe": "0x00C07540"
+    },
+    "label": "BSReadWriteLock::TryLockForWrite",
+    "signature": "40 53 48 83 EC 20 48 8B D9 FF 15 ?? ?? ?? ?? 8B C8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C28740",
+      "skyrimse_1_5_97.exe": "0x00C28BF0"
+    },
+    "label": "StringCache::Ref::ctor",
+    "signature": "40 53 48 83 EC 20 45 33 DB 48 8B D9 4C 89 19"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C287D0",
+      "skyrimse_1_5_97.exe": "0x00C28C80"
+    },
+    "label": "StringCache::Ref::ctor_ref",
+    "signature": "48 8B 54 24 60 E8 *?? ?? ?? ?? 48 8B 4C 24 68"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C288B0",
+      "skyrimse_1_5_97.exe": "0x00C28D60"
+    },
+    "label": "StringCache::Ref::Set",
+    "signature": "40 53 48 83 EC 20 48 8B 01 48 8B D9 48 89 44 24 38"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C28970",
+      "skyrimse_1_5_97.exe": "0x00C28E20"
+    },
+    "label": "StringCache::Ref::Set_ref",
+    "signature": "48 8B D0 48 8D 4B 10 E8 *?? ?? ?? ?? 48 89 73 18"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C28890",
+      "skyrimse_1_5_97.exe": "0x00C28D40"
+    },
+    "label": "StringCache::Ref::Release",
+    "signature": "E8 *?? ?? ?? ?? 90 B0 01 4C 8D 9C 24 50 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x000F9E90",
+      "skyrimse_1_5_97.exe": "0x000F9E90"
+    },
+    "label": "BSString::Set",
+    "signature": "40 57 41 54 41 55 41 56 41 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 60 48 89 6C 24 68 48 89 74 24 70 41 8B F8 48 8B EA 48 8B F1 45 33 F6 48 85 D2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00854E40",
+      "skyrimse_1_5_97.exe": "0x00854E40"
+    },
+    "label": "StandardItemData::ctor_data",
+    "signature": "48 8B C4 48 89 48 08 55 57 41 56 48 8B EC 48 83 EC 60 48 C7 45 D0 FE FF FF FF 48 89 58 10 48 89 70 18 0F 29 70 D8 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 4C 89 41 08"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0089E730",
+      "skyrimse_1_5_97.exe": "0x0089E730"
+    },
+    "label": "MagicItemData::ctor_data",
+    "signature": "41 8D 51 48 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 89 44 24 78 48 85 C0 74 ?? 4C 8B CF 4C 8B C5 48 8B D6 48 8B C8 E8 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003C3F00",
+      "skyrimse_1_5_97.exe": "0x003C3F00"
+    },
+    "label": "BSFaceGenAnimationData::SetExpression",
+    "signature": "8B 54 24 50 48 8B CB E8 *?? ?? ?? ?? C6 83 1E 02 00 00 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003C38E0",
+      "skyrimse_1_5_97.exe": "0x003C38E0"
+    },
+    "label": "BSFaceGenAnimationData::Reset",
+    "signature": "48 89 5C 24 08 48 89 6C 24 10 48 89 74 24 18 57 41 56 41 57 48 83 EC 40 48 8D B9 20 02 00 00 0F 29 74 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C522A0",
+      "skyrimse_1_5_97.exe": "0x00C52750"
+    },
+    "label": "NiSkinInstance::Copy",
+    "signature": "4C 8B DC 57 48 81 EC B0 00 00 00 49 C7 43 E8 FE FF FF FF 49 89 5B 08 48 8B F9 33 C9 48 89 4C 24 2C 89 4C 24 34"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C7E6B0",
+      "skyrimse_1_5_97.exe": "0x00C7EB60"
+    },
+    "label": "NiSkinInstance::ctor",
+    "signature": "40 53 48 83 EC 20 48 8B D9 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 03 48 8D 4B 60"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C6B7C0",
+      "skyrimse_1_5_97.exe": "0x00C6BC70"
+    },
+    "label": "BSDismemberSkinInstance::ctor",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B D9 E8 ?? ?? ?? ?? 33 FF 48 8D 05 ?? ?? ?? ?? 48 89 03"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012CEA90",
+      "skyrimse_1_5_97.exe": "0x012CEF40"
+    },
+    "label": "BSLightingShaderMaterial::CopyFrom",
+    "signature": "48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B F2 48 8B D9 E8 ?? ?? ?? ?? 48 8B 4B 48 83 CF FF 48 8B 46 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012CE930",
+      "skyrimse_1_5_97.exe": "0x012CEDE0"
+    },
+    "label": "BSLightingShaderMaterial::dtor_base",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 89 74 24 50 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B 49 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D0450",
+      "skyrimse_1_5_97.exe": "0x012D0900"
+    },
+    "label": "BSLightingShaderMaterialEye::dtor",
+    "signature": "F3 0F 11 8B C8 00 00 00 48 83 C4 20 5B C3 CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC CC *40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012CFD40",
+      "skyrimse_1_5_97.exe": "0x012D01F0"
+    },
+    "label": "BSLightingShaderMaterialEnvmap::dtor",
+    "signature": "90 48 8D 8D 70 02 00 00 E8 *?? ?? ?? ?? 90 48 8D 8D 10 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D1B00",
+      "skyrimse_1_5_97.exe": "0x012D1FB0"
+    },
+    "label": "BSLightingShaderMaterialFacegen::dtor",
+    "signature": "5B C3 CC CC CC CC CC CC CC CC *40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B 89 A0 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D0BA0",
+      "skyrimse_1_5_97.exe": "0x012D1050"
+    },
+    "label": "BSLightingShaderMaterialGlowmap::dtor",
+    "signature": "48 8D 8D 10 01 00 00 E8 *?? ?? ?? ?? 90 48 8D 4D C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D1040",
+      "skyrimse_1_5_97.exe": "0x012D14F0"
+    },
+    "label": "BSLightingShaderMaterialParallax::dtor",
+    "signature": "48 8D 8D C0 01 00 00 E8 *?? ?? ?? ?? 90 48 8D 4D 70"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D3690",
+      "skyrimse_1_5_97.exe": "0x012D3B40"
+    },
+    "label": "BSLightingShaderMaterialMultiLayerParallax::dtor",
+    "signature": "48 83 C4 20 5B C3 CC CC CC CC CC CC CC CC CC CC *40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 8B D9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012D14E0",
+      "skyrimse_1_5_97.exe": "0x012D1990"
+    },
+    "label": "BSLightingShaderMaterialParallaxOcc::dtor",
+    "signature": "48 8D 4D C0 E8 *?? ?? ?? ?? 90 48 8D 8D C0 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D90E0",
+      "skyrimse_1_5_97.exe": "0x003D90E0"
+    },
+    "label": "BSFaceGenNiNode::AdjustHeadMorph",
+    "signature": "40 55 41 56 41 57 48 83 EC 40 0F B7 81 22 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C524F0",
+      "skyrimse_1_5_97.exe": "0x00C529A0"
+    },
+    "label": "NiObject::DeepCopy",
+    "signature": "40 53 56 57 48 81 EC 50 06 00 00 48 C7 44 24 20 FE FF FF FF 48 8B F2 48 8B D9 48 8D 4C 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C566A0",
+      "skyrimse_1_5_97.exe": "0x00C56B50"
+    },
+    "label": "NiAVObject::UpdateNode",
+    "signature": "40 53 48 83 EC 20 48 8B 01 45 33 C0 48 8B D9 FF 90 60 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D4070",
+      "skyrimse_1_5_97.exe": "0x003D4070"
+    },
+    "label": "BSFaceGenModel::ctor",
+    "signature": "48 8D 05 ?? ?? ?? ?? 33 D2 48 89 01 89 51 08 F0 FF 05 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B C1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D4150",
+      "skyrimse_1_5_97.exe": "0x003D4150"
+    },
+    "label": "BSFaceGenModel::CopyFrom",
+    "signature": "48 8D 05 ?? ?? ?? ?? 45 33 C0 48 89 01 44 89 41 08 F0 FF 05 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B 42 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D47C0",
+      "skyrimse_1_5_97.exe": "0x003D47C0"
+    },
+    "label": "BSFaceGenModel::SetModelData",
+    "signature": "48 8B C4 44 88 48 20 4C 89 40 18 55 56"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D4630",
+      "skyrimse_1_5_97.exe": "0x003D4630"
+    },
+    "label": "BSFaceGenModel::ApplyMorph",
+    "signature": "40 56 57 41 56 48 83 EC 40 48 C7 44 24 38 FE FF FF FF 48 89 5C 24 60 48 89 6C 24 68 4D 8B F1 48 8B EA 48 8B D9 40 32 F6 48 C7 44 24 78 00 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x003D7860",
+      "skyrimse_1_5_97.exe": "0x003D7860"
+    },
+    "label": "BSFaceGenMorphData::ApplyMorph",
+    "signature": "40 57 48 83 EC 50 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 60 48 89 6C 24 68 48 89 74 24 70 0F 29 74 24 40 0F 28 F3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012C5220",
+      "skyrimse_1_5_97.exe": "0x012C56D0"
+    },
+    "label": "BSLightingShaderProperty::InitializeShader",
+    "signature": "48 89 5C 24 10 48 89 6C 24 18 56 57 41 56 48 83 EC 40 48 83 7A 30 00 48 8D 7A 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01291890",
+      "skyrimse_1_5_97.exe": "0x01291D40"
+    },
+    "label": "BSLightingShaderProperty::SetMaterial",
+    "signature": "48 89 5C 24 08 57 48 83 EC 20 48 8B 79 78 48 8B D9 48 85 D2"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01291780",
+      "skyrimse_1_5_97.exe": "0x01291C30"
+    },
+    "label": "BSLightingShaderProperty::SetFlags",
+    "signature": "4C 8B C9 B8 01 00 00 00 8B CA 48 D3 E0 49 8B 49 38 45 84 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0019C3B0",
+      "skyrimse_1_5_97.exe": "0x0019C3B0"
+    },
+    "label": "BSLightingShaderProperty::InvalidateMaterial",
+    "signature": "40 53 48 83 EC 20 48 8B 51 78 83 7A 30 00 0F 94 C3 84 DB"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012C5600",
+      "skyrimse_1_5_97.exe": "0x012C5AB0"
+    },
+    "label": "BSLightingShaderProperty::InvalidateTextures",
+    "signature": "4C 8B 51 78 8B 41 38 48 A9 00 10 00 00 49 8B CA 41 0F 96 C1 45 33 C0 4D 8B 1A 49 FF 63 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C591E0",
+      "skyrimse_1_5_97.exe": "0x00C59690"
+    },
+    "label": "NiStream::ctor",
+    "signature": "48 89 4C 24 08 57 48 83 EC 40 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 60 48 89 74 24 68 48 8B F1 48 8D 05 ?? ?? ?? ?? 48 89 01 C7 41 08 64 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C59440",
+      "skyrimse_1_5_97.exe": "0x00C598F0"
+    },
+    "label": "NiStream::dtor",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 89 74 24 48 48 8B F9 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B 89 98 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C59630",
+      "skyrimse_1_5_97.exe": "0x00C59AE0"
+    },
+    "label": "NiStream::AddObject",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 50 48 89 74 24 58 48 8B DA 48 89 54 24 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0014CC20",
+      "skyrimse_1_5_97.exe": "0x0014CC20"
+    },
+    "label": "BSStream::dtor",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 48 8B B9 20 06 00 00 48 85 FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C59A60",
+      "skyrimse_1_5_97.exe": "0x00C59F10"
+    },
+    "label": "DeepCopyStream::SaveStream",
+    "signature": "40 57 48 83 EC 60 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 70 48 89 74 24 78 49 8B F8 48 8B F2 48 8B D9 48 8D 4C 24 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C59A10",
+      "skyrimse_1_5_97.exe": "0x00C59EC0"
+    },
+    "label": "DeepCopyStream::LoadStream",
+    "signature": "40 53 48 83 EC 60 48 C7 44 24 20 FE FF FF FF 48 8B D9 48 8D 4C 24 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECDAA0",
+      "skyrimse_1_5_97.exe": "0x00ECDF50"
+    },
+    "label": "NiRenderedTexture::UpdateVirtualImage",
+    "signature": "48 89 5C 24 10 57 48 83 EC 20 48 8B FA 48 8B D9 48 39 11 74 ?? E8 ?? ?? ?? ?? 48 8B 0B 48 3B CF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECDB60",
+      "skyrimse_1_5_97.exe": "0x00ECE010"
+    },
+    "label": "NiRenderedTexture::AddVirtualImage",
+    "signature": "48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 20 48 83 39 00 48 8B F2 48 8B F9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECDA30",
+      "skyrimse_1_5_97.exe": "0x00ECDEE0"
+    },
+    "label": "NiRenderedTexture::ReleaseVirtualImage",
+    "signature": "48 89 5C 24 10 57 48 83 EC 20 48 8B FA 48 8B D9 48 39 11 74 ?? E8 *?? ?? ?? ?? 48 8B 0B"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012444C0",
+      "skyrimse_1_5_97.exe": "0x01244970"
+    },
+    "label": "VMArgList::GetOffset",
+    "signature": "44 8B 51 50 45 33 C0 32 C0 4C 8B C9 45 85 D2 74 ?? 84 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01244520",
+      "skyrimse_1_5_97.exe": "0x012449D0"
+    },
+    "label": "VMArgList::Get",
+    "signature": "45 33 C9 44 8B C7 48 8B D6 48 8B 0E E8 *?? ?? ?? ?? 4C 8B E0 EB ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0122D620",
+      "skyrimse_1_5_97.exe": "0x0122DAD0"
+    },
+    "label": "ObjectBindPolicy::BindObject",
+    "signature": "4D 8B C4 48 8D 54 24 50 49 8B CF E8 *?? ?? ?? ?? 80 BD 90 01 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01250A20",
+      "skyrimse_1_5_97.exe": "0x01250ED0"
+    },
+    "label": "NativeFunctionBase::Impl_dtor",
+    "signature": "40 53 48 83 EC 20 48 8D 05 ?? ?? ?? ?? 48 8B D9 48 89 01 48 83 C1 48 E8 ?? ?? ?? ?? 48 8D 4B 30 E8 ?? ?? ?? ?? 48 8D 4B 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012501C0",
+      "skyrimse_1_5_97.exe": "0x01250670"
+    },
+    "label": "NativeFunctionBase::Impl_GetParam",
+    "signature": "0F B7 41 3A C3 CC CC CC CC CC CC CC CC CC CC CC *48 89 5C 24 08 48 89 74 24 10 57 48 83 EC 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01250340",
+      "skyrimse_1_5_97.exe": "0x012507F0"
+    },
+    "label": "NativeFunctionBase::Impl_Invoke",
+    "signature": "48 8B C4 4C 89 48 20 4C 89 40 18 55 56 57 41 54 41 55 41 56 41 57 48 8D A8 68 F8 FF FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012502A0",
+      "skyrimse_1_5_97.exe": "0x01250750"
+    },
+    "label": "NativeFunctionBase::Impl_Fn10",
+    "signature": "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 41 C7 00 00 00 00 00 32 C0 C3 CC CC CC CC CC CC 48 89 5C 24 08 57 48 83 EC 20 0F B7 41 3A"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012502C0",
+      "skyrimse_1_5_97.exe": "0x01250770"
+    },
+    "label": "NativeFunctionBase::Impl_Fn12",
+    "signature": "48 8D 05 ?? ?? ?? ?? C3 CC CC CC CC CC CC CC CC 41 C7 00 00 00 00 00 32 C0 C3 CC CC CC CC CC CC *48 89 5C 24 08 57 48 83 EC 20 0F B7 41 3A"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012507D0",
+      "skyrimse_1_5_97.exe": "0x01250C80"
+    },
+    "label": "NativeFunction::Impl_ctor",
+    "signature": "48 89 4C 24 08 55 56 57 41 56 41 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 70 45 0F B6 F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012331C0",
+      "skyrimse_1_5_97.exe": "0x01233670"
+    },
+    "label": "VMIdentifier::Destroy_Internal",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 89 74 24 48 48 8B F9 F6 01 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01241990",
+      "skyrimse_1_5_97.exe": "0x01241E40"
+    },
+    "label": "VMValue::ArrayData::Destroy",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 8B F9 33 DB 39 59 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x012369A0",
+      "skyrimse_1_5_97.exe": "0x01236E50"
+    },
+    "label": "VMValue::Set",
+    "signature": "48 89 4C 24 08 53 56 57 41 56 48 83 EC 38 48 C7 44 24 20 FE FF FF FF 48 8B FA 48 8B F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01236860",
+      "skyrimse_1_5_97.exe": "0x01236D10"
+    },
+    "label": "VMValue::Destroy",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 48 48 89 74 24 50 48 8B F9 8B 15 ?? ?? ?? ?? 65 48 8B 04 25 58 00 00 00 B9 68 07 00 00 48 8B 34 D0 48 03 F1 8B 06 89 44 24 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01235AB0",
+      "skyrimse_1_5_97.exe": "0x01235F60"
+    },
+    "label": "VMValue::SetArray",
+    "signature": "48 89 4C 24 08 56 57 41 56 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 58 4C 8B F2 48 8B F9 8B 09 8D 41 F5"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01236D90",
+      "skyrimse_1_5_97.exe": "0x01237240"
+    },
+    "label": "VMClassInfo::Destroy",
+    "signature": "40 53 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 8B D9 33 D2 E8 ?? ?? ?? ?? 90 48 8D 4B 18"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01238100",
+      "skyrimse_1_5_97.exe": "0x012385B0"
+    },
+    "label": "VMClassInfo::GetVariable",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 4C 89 74 24 20 41 57 48 83 EC 20 44 8B 05 ?? ?? ?? ?? 48 8B F9 65 48 8B 04 25 ?? ?? ?? ?? 83 CE FF B9 68 07 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0123C2B0",
+      "skyrimse_1_5_97.exe": "0x0123C760"
+    },
+    "label": "VMClassInfo::GetFunction",
+    "signature": "80 BD A8 0B 00 00 00 74 ?? 48 8B 16 E8 *?? ?? ?? ?? 48 8B F8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x009247E0",
+      "skyrimse_1_5_97.exe": "0x009247E0"
+    },
+    "label": "SkyrimVM::UnregisterFromSleep_Internal",
+    "signature": "48 89 54 24 10 53 55 56 57 41 56 41 57 48 83 EC 58 48 C7 44 24 38 FE FF FF FF 4C 8B F2 4C 8B F9 48 8D B9 54 07 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0092DAE0",
+      "skyrimse_1_5_97.exe": "0x0092DAE0"
+    },
+    "label": "SkyrimVM::RevertGlobalData_Internal",
+    "signature": "48 8B CB E8 *?? ?? ?? ?? 48 8D 8B 98 03 00 00 48 83 C4 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0092EB50",
+      "skyrimse_1_5_97.exe": "0x0092EB50"
+    },
+    "label": "SkyrimVM::SaveRegSleepEventHandles_Internal",
+    "signature": "40 53 55 56 57 41 56 48 83 EC 40 48 C7 44 24 20 FE FF FF FF 49 8B F0 4C 8B F2 48 8B F9 48 8D 99 54 07 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0092FD80",
+      "skyrimse_1_5_97.exe": "0x0092FD80"
+    },
+    "label": "SkyrimVM::LoadRegSleepEventHandles_Internal",
+    "signature": "4C 8B C7 48 8D 54 24 38 49 8B CF E8 *?? ?? ?? ?? 84 C0 74 ?? B0 01 EB ?? 32 C0 66 83 FE 04"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x009252C0",
+      "skyrimse_1_5_97.exe": "0x009252C0"
+    },
+    "label": "SkyrimVM::QueueDelayFunctor_Internal",
+    "signature": "48 8D 54 24 30 48 8B 0D ?? ?? ?? ?? E8 *?? ?? ?? ?? 84 C0 0F 94 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00920360",
+      "skyrimse_1_5_97.exe": "0x00920360"
+    },
+    "label": "IFunctionArguments::Output::Resize",
+    "signature": "41 56 48 83 EC 40 48 C7 44 24 30 FE FF FF FF 48 89 5C 24 50 48 89 6C 24 58 48 89 74 24 60 48 89 7C 24 68 8B F2 48 8B F9 41 B6 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECDC20",
+      "skyrimse_1_5_97.exe": "0x00ECE0D0"
+    },
+    "label": "GFxLoader::ctor",
+    "signature": "48 89 4C 24 08 55 53 56 57 41 54 41 55 41 56 41 57 48 8D AC 24 F8 FD FF FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECE2E0",
+      "skyrimse_1_5_97.exe": "0x00ECE790"
+    },
+    "label": "GFxLoader::LoadMovie",
+    "signature": "E8 *?? ?? ?? ?? C7 47 20 03 00 00 00 40 88 6F 18 48 89 6C 24 38 89 6C 24 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ED35A0",
+      "skyrimse_1_5_97.exe": "0x00ED3A50"
+    },
+    "label": "GString::ctor",
+    "signature": "E8 *?? ?? ?? ?? 45 8B CC 40 88 74 24 28 4C 8D 44 24 30 40 88 74 24 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00885C40",
+      "skyrimse_1_5_97.exe": "0x00885C40"
+    },
+    "label": "HUDObject::dtor",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 89 74 24 48 8B F2 48 8B D9 48 8D 05 ?? ?? ?? ?? 48 89 01 8B 41 18 C1 E8 06 A8 01 74 ?? 4C 8B 41 20 48 8D 51 10 48 8B 49 10 E8 ?? ?? ?? ?? 90 48 C7 43 10 00 00 00 00 48 8B 4B 08 48 85 C9 74 ?? 48 8B 01 FF 90 28 02 00 00 90 40 F6 C6 01 74 ?? BA 28 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00880140",
+      "skyrimse_1_5_97.exe": "0x00880140"
+    },
+    "label": "HUDObject::Impl_Fn03",
+    "signature": "48 8B 52 28 48 83 C1 10 E9 ?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00885400",
+      "skyrimse_1_5_97.exe": "0x00885400"
+    },
+    "label": "Notification::dtor",
+    "signature": "40 57 48 83 EC 30 48 C7 44 24 20 FE FF FF FF 48 89 5C 24 40 48 8B D9 48 83 C1 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C90F90",
+      "skyrimse_1_5_97.exe": "0x00C91440"
+    },
+    "label": "NiTriBasedGeom::ctor",
+    "signature": "E8 *?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 03 48 8B C3 48 8B 5C 24 58 48 8B 74 24 68"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C71E50",
+      "skyrimse_1_5_97.exe": "0x00C72300"
+    },
+    "label": "BSDynamicTriShape::ctor",
+    "signature": "E8 *?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 89 07 C6 87 50 01 00 00 0B"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00C575B0",
+      "skyrimse_1_5_97.exe": "0x00C57A60"
+    },
+    "label": "NiNode::ctor",
+    "signature": "33 D2 48 8B C8 E8 *?? ?? ?? ?? 48 8B F8 48 8B 0E 48 3B CF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0128F450",
+      "skyrimse_1_5_97.exe": "0x0128F900"
+    },
+    "label": "BSFadeNode::ctor",
+    "signature": "40 53 48 83 EC 20 33 D2 48 8B D9 E8 ?? ?? ?? ?? 48 8D 05 ?? ?? ?? ?? 48 8B CB 48 89 03 E8 ?? ?? ?? ?? 48 8B C3 48 83 C4 20 5B C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00D6D710",
+      "skyrimse_1_5_97.exe": "0x00D6DBC0"
+    },
+    "label": "BSRenderManager::CreateRenderTexture",
+    "signature": "40 55 56 57 48 8D 6C 24 B9 48 81 EC 90 00 00 00 48 C7 45 D7 FE FF FF FF 48 89 9C 24 B0 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00F44EA0",
+      "skyrimse_1_5_97.exe": "0x00F45350"
+    },
+    "label": "BSScaleformImageLoader::AddVirtualImage",
+    "signature": "48 8B D3 48 8B 49 20 E8 *?? ?? ?? ?? 48 8B 5C 24 38 48 83 C4 20 5F C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00F45370",
+      "skyrimse_1_5_97.exe": "0x00F45820"
+    },
+    "label": "BSScaleformImageLoader::ReleaseVirtualImage",
+    "signature": "40 55 48 8B EC 48 83 EC 60 48 C7 45 E0 FE FF FF FF 48 89 5C 24 70 48 89 7C 24 78"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECA170",
+      "skyrimse_1_5_97.exe": "0x00ECA620"
+    },
+    "label": "GFxValue::ObjectInterface::HasMember",
+    "signature": "48 89 5C 24 08 48 89 74 24 18 57 48 83 EC 60 49 8B D8 48 8B FA"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECC6F0",
+      "skyrimse_1_5_97.exe": "0x00ECCBA0"
+    },
+    "label": "GFxValue::ObjectInterface::SetMember",
+    "signature": "48 89 6C 24 18 56 57 41 56 48 83 EC 50 80 BC 24 90 00 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC8FE0",
+      "skyrimse_1_5_97.exe": "0x00EC9490"
+    },
+    "label": "GFxValue::ObjectInterface::DeleteMember",
+    "signature": "48 89 5C 24 08 48 89 74 24 18 57 48 83 EC 20 49 8B D8 48 8B FA 48 8B F1 45 84 C9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC9CA0",
+      "skyrimse_1_5_97.exe": "0x00ECA150"
+    },
+    "label": "GFxValue::ObjectInterface::GetMember",
+    "signature": "48 89 5C 24 18 56 57 41 56 48 83 EC 40 80 BC 24 80 00 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECA3B0",
+      "skyrimse_1_5_97.exe": "0x00ECA860"
+    },
+    "label": "GFxValue::ObjectInterface::Invoke",
+    "signature": "40 53 41 54 41 56 41 57 48 81 EC A8 00 00 00 80 BC 24 00 01 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC7EF0",
+      "skyrimse_1_5_97.exe": "0x00EC83A0"
+    },
+    "label": "GFxValue::ObjectInterface::AttachMovie",
+    "signature": "40 55 53 57 41 54 41 56 41 57 48 8D 6C 24 A8 48 81 EC 58 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECAE50",
+      "skyrimse_1_5_97.exe": "0x00ECB300"
+    },
+    "label": "GFxValue::ObjectInterface::PushBack",
+    "signature": "40 53 48 83 EC 40 49 8B C0 48 85 D2 74 ?? 48 8D 5A E0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECC840",
+      "skyrimse_1_5_97.exe": "0x00ECCCF0"
+    },
+    "label": "GFxValue::ObjectInterface::SetText",
+    "signature": "48 8B 56 78 48 8B 4E 68 E8 *?? ?? ?? ?? 8B 44 24 48 C1 E8 06 A8 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC9720",
+      "skyrimse_1_5_97.exe": "0x00EC9BD0"
+    },
+    "label": "GFxValue::ObjectInterface::GetArraySize",
+    "signature": "48 85 D2 74 ?? 8B 42 58 C3 33 C0 8B 40 78 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC9A80",
+      "skyrimse_1_5_97.exe": "0x00EC9F30"
+    },
+    "label": "GFxValue::ObjectInterface::GetElement",
+    "signature": "48 89 5C 24 08 48 89 74 24 10 48 89 7C 24 18 41 56 48 83 EC 20 49 63 F0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECA0C0",
+      "skyrimse_1_5_97.exe": "0x00ECA570"
+    },
+    "label": "GFxValue::ObjectInterface::GotoLabeledFrame",
+    "signature": "48 89 5C 24 10 48 89 74 24 18 57 48 83 EC 20 48 8B C2 41 0F B6 F1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00EC9770",
+      "skyrimse_1_5_97.exe": "0x00EC9C20"
+    },
+    "label": "GFxValue::ObjectInterface::GetDisplayInfo",
+    "signature": "48 89 5C 24 20 57 48 81 EC F0 00 00 00 48 8B 05 ?? ?? ?? ?? 48 33 C4 48 89 84 24 80 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECB900",
+      "skyrimse_1_5_97.exe": "0x00ECBDB0"
+    },
+    "label": "GFxValue::ObjectInterface::SetDisplayInfo",
+    "signature": "40 55 56 57 48 8D 6C 24 B0 48 81 EC 50 01 00 00 48 8B 05 ?? ?? ?? ?? 48 33 C4"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECABD0",
+      "skyrimse_1_5_97.exe": "0x00ECB080"
+    },
+    "label": "GFxValue::ObjectInterface::AddManaged_Internal",
+    "signature": "48 83 EC 28 8B 42 08 25 8F 00 00 00 83 F8 04 74 ?? 83 F8 05"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x00ECAC30",
+      "skyrimse_1_5_97.exe": "0x00ECB0E0"
+    },
+    "label": "GFxValue::ObjectInterface::ReleaseManaged_Internal",
+    "signature": "40 53 48 83 EC 20 8B 42 08 49 8B D8 25 8F 00 00 00 83 F8 04 74 ?? 83 F8 05"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EC3C10",
+      "skyrimse_1_5_97.exe": "0x01EC3C10"
+    },
+    "label": "g_TESProcessor",
+    "signature": "48 89 08 48 8D 48 08 48 85 C9 74 ?? 48 83 C1 F8 48 89 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBD280",
+      "skyrimse_1_5_97.exe": "0x01EBD280"
+    },
+    "label": "g_mainHeap",
+    "signature": "40 53 48 83 EC 20 83 3D ?? ?? ?? ?? ?? 74 ?? 48 8D 1D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F000F0",
+      "skyrimse_1_5_97.exe": "0x02F000F0"
+    },
+    "label": "g_console",
+    "signature": "48 8B 03 48 8B CB 48 8B 3D *?? ?? ?? ?? FF 90 90 01 00 00 48 8B 16 48 8B CE 48 8B D8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F4C31C",
+      "skyrimse_1_5_97.exe": "0x02F4C31C"
+    },
+    "label": "g_consoleHandle",
+    "signature": "48 8B 41 18 48 8B 70 30 33 FF 48 89 7C 24 50 48 8D 54 24 50 48 8D 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x03497408",
+      "skyrimse_1_5_97.exe": "0x03497408"
+    },
+    "label": "g_TlsIndexPtr",
+    "signature": "48 81 EC 80 00 00 00 49 C7 43 B8 FE FF FF FF 49 89 5B 08 49 89 6B 10 49 89 73 18 48 8B FA 48 8B D9 44 8B 15 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F26EF8",
+      "skyrimse_1_5_97.exe": "0x02F26EF8"
+    },
+    "label": "g_thePlayer",
+    "signature": "80 7F 1A 3E 4C 0F 44 F7 4D 85 F6 74 ?? 48 3B 3D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBE428",
+      "skyrimse_1_5_97.exe": "0x01EBE428"
+    },
+    "label": "g_dataHandler",
+    "signature": "8B 47 10 C1 E8 0E A8 01 75 ?? 83 7F 14 00 75 ?? 48 8B 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBEAE8",
+      "skyrimse_1_5_97.exe": "0x01EBEAE8"
+    },
+    "label": "g_persistentFormManager",
+    "signature": "48 8B 53 10 48 8B 0D *?? ?? ?? ?? E8 ?? ?? ?? ?? 90 48 C7 43 10 00 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBEB40",
+      "skyrimse_1_5_97.exe": "0x01EBEB40"
+    },
+    "label": "g_faceGen",
+    "signature": "8B 46 10 48 C1 F8 10 44 0F B6 C0 4C 8B CE 48 8B D7 48 8B 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F26730",
+      "skyrimse_1_5_97.exe": "0x02F26730"
+    },
+    "label": "g_MagicFavorites",
+    "signature": "40 53 48 83 EC 20 48 8B 51 18 32 DB 48 8B 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EFF988",
+      "skyrimse_1_5_97.exe": "0x02EFF988"
+    },
+    "label": "g_MenuTopicManager",
+    "signature": "FF 90 68 02 00 00 48 85 C0 75 ?? 48 8B 0D *?? ?? ?? ?? 48 8B D3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBE418",
+      "skyrimse_1_5_97.exe": "0x01EBE418"
+    },
+    "label": "g_actorValueList",
+    "signature": "48 8B 0D *?? ?? ?? ?? F3 0F 10 54 24 54 48 8B 54 F9 08 8B 4A 60 C1 E9 08 F6 C1 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DB5E80",
+      "skyrimse_1_5_97.exe": "0x01DB5E80"
+    },
+    "label": "g_defaultObjectList",
+    "signature": "8B C1 48 8D 0C 40 48 8D 05 *?? ?? ?? ?? 48 8D 04 C8 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F26740",
+      "skyrimse_1_5_97.exe": "0x02F26740"
+    },
+    "label": "g_saveLoadManager",
+    "signature": "48 8B 0D *?? ?? ?? ?? BA 40 00 00 F0 E8 ?? ?? ?? ?? B0 01 48 83 C4 28 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC54D8",
+      "skyrimse_1_5_97.exe": "0x02EC54D8"
+    },
+    "label": "g_MiscStatManager",
+    "signature": "41 8B 1E 89 5C 24 40 41 C7 06 5A 00 00 00 48 8B 3D *?? ?? ?? ?? 48 85 FF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC4838",
+      "skyrimse_1_5_97.exe": "0x02EC4838"
+    },
+    "label": "g_equipManager",
+    "signature": "48 8B 45 B0 48 8B 38 48 8B 35 *?? ?? ?? ?? 48 8B 4C 24 70 E8 ?? ?? ?? ?? 44 0F BF C8 33 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DD3EF8",
+      "skyrimse_1_5_97.exe": "0x01DD3EF8"
+    },
+    "label": "g_relationshipRanks",
+    "signature": "4C 8B 44 24 50 48 8D 15 *?? ?? ?? ?? 8B 0C BA 44 8B 0C AA 48 8B D3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DD6210",
+      "skyrimse_1_5_97.exe": "0x01DD6210"
+    },
+    "label": "g_facePresetList",
+    "signature": "48 63 C1 48 8D 0D *?? ?? ?? ?? 48 C1 E0 04 48 03 C1 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C070",
+      "skyrimse_1_5_97.exe": "0x0152C060"
+    },
+    "label": "s_ExtraHealthVtbl",
+    "signature": "49 8B CD E8 ?? ?? ?? ?? EB ?? B9 18 00 00 00 E8 ?? ?? ?? ?? 48 89 44 24 30 48 85 C0 74 ?? 33 C9 48 89 48 08 48 8D 15 *?? ?? ?? ?? 48 89 10 89 48 10 33 F6 EB ?? 48 8B C6 48 8B D0 49 8B CD E8 ?? ?? ?? ?? 48 8D 50 10 41 B9 04 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C0D0",
+      "skyrimse_1_5_97.exe": "0x0152C0C0"
+    },
+    "label": "s_ExtraChargeVtbl",
+    "signature": "48 8D 15 *?? ?? ?? ?? 48 89 10 89 48 10 33 F6 E9 ?? ?? ?? ?? 0F B6 85 30 02 00 00 80 7C 05 A0 00 74 ?? 49 8B CD E8 ?? ?? ?? ?? EB ?? B9 18 00 00 00 E8 ?? ?? ?? ?? 48 89 85 18 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152BFF0",
+      "skyrimse_1_5_97.exe": "0x0152BFE0"
+    },
+    "label": "s_ExtraCountVtbl",
+    "signature": "48 8D 05 *?? ?? ?? ?? 48 C7 41 08 00 00 00 00 48 89 01 48 8B C1 66 89 51 10 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152CAF0",
+      "skyrimse_1_5_97.exe": "0x0152CAE0"
+    },
+    "label": "s_ExtraTextDisplayVtbl",
+    "signature": "4C 8D 05 *?? ?? ?? ?? 4C 89 03 4C 89 73 10 48 89 43 18 48 89 4B 20 89 53 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152F2F0",
+      "skyrimse_1_5_97.exe": "0x0152F2E0"
+    },
+    "label": "s_ExtraSoulVtbl",
+    "signature": "B8 28 00 00 00 C3 CC CC CC CC CC CC CC CC CC CC 48 8D 05 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152BF90",
+      "skyrimse_1_5_97.exe": "0x0152BF80"
+    },
+    "label": "s_ExtraOwnershipVtbl",
+    "signature": "48 8D 15 *?? ?? ?? ?? 48 89 10 48 89 48 10 33 F6 EB ?? 48 8B C6 48 8B D0 49 8B CD E8 ?? ?? ?? ?? 48 8D 58 10 48 8B D3 49 8B CC E8 ?? ?? ?? ?? 48 8B 0B 48 85 C9"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C9B0",
+      "skyrimse_1_5_97.exe": "0x0152C9A0"
+    },
+    "label": "s_ExtraAliasInstanceArrayVtbl",
+    "signature": "48 89 5C 24 60 4C 8B F1 48 8D 05 *?? ?? ?? ?? 48 89 01 48 8D 54 24 50 48 83 C1 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C050",
+      "skyrimse_1_5_97.exe": "0x0152C040"
+    },
+    "label": "s_ExtraCannotWearVtbl",
+    "signature": "48 89 44 24 70 48 85 C0 74 ?? 48 C7 40 08 00 00 00 00 48 8D 0D *?? ?? ?? ?? 48 89 08 48 8B D0 48 8B CD"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C130",
+      "skyrimse_1_5_97.exe": "0x0152C120"
+    },
+    "label": "s_ExtraHotkeyVtbl",
+    "signature": "48 8D 1D *?? ?? ?? ?? 48 8D 3D ?? ?? ?? ?? 33 F6 0F 1F 40 00 C6 85 30 02 00 00 00 41 B9 01 00 00 00 45 8B C1 48 8D 95 30 02 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152CB70",
+      "skyrimse_1_5_97.exe": "0x0152CB60"
+    },
+    "label": "s_ExtraForcedTargetVtbl",
+    "signature": "48 8D 05 *?? ?? ?? ?? 48 89 02 8B 05 ?? ?? ?? ?? 89 42 10 E9 ?? ?? ?? ?? 0F B6 85 30 02 00 00 80 7C 05 A0 00 74 ?? 49 8B CD E8 ?? ?? ?? ?? EB ?? B9 68 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C170",
+      "skyrimse_1_5_97.exe": "0x0152C160"
+    },
+    "label": "s_ExtraReferenceHandleVtbl",
+    "signature": "41 8B 06 89 84 24 80 00 00 00 48 C7 42 08 00 00 00 00 48 8D 0D *?? ?? ?? ?? 48 89 0A 89 42 10"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152C490",
+      "skyrimse_1_5_97.exe": "0x0152C480"
+    },
+    "label": "s_ExtraEnchantmentVtbl",
+    "signature": "48 C7 40 08 00 00 00 00 48 8D 0D *?? ?? ?? ?? 48 89 08 4C 89 70 10 66 44 89 60 18 44 88 78 1A"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152BFD0",
+      "skyrimse_1_5_97.exe": "0x0152BFC0"
+    },
+    "label": "s_ExtraRankVtbl",
+    "signature": "48 8D 15 *?? ?? ?? ?? 48 89 10 89 48 10 33 F6 E9 ?? ?? ?? ?? 0F B6 85 30 02 00 00 80 7C 05 A0 00 74 ?? 49 8B CD E8 ?? ?? ?? ?? EB ?? B9 18 00 00 00 E8 ?? ?? ?? ?? 48 89 44 24 30 48 85 C0"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0152CBB0",
+      "skyrimse_1_5_97.exe": "0x0152CBA0"
+    },
+    "label": "s_ExtraUniqueIdVtbl",
+    "signature": "48 89 48 08 48 8D 15 *?? ?? ?? ?? 48 89 10 89 48 10 66 89 48 14 33 F6"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBD710",
+      "skyrimse_1_5_97.exe": "0x01EBD710"
+    },
+    "label": "g_BGSDefaultObjectManager",
+    "signature": "48 8B 05 *?? ?? ?? ?? FF 50 20 90 B8 68 07 00 00 42 89 3C 20 48 8B 9C 24 C0 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F257A8",
+      "skyrimse_1_5_97.exe": "0x02F257A8"
+    },
+    "label": "g_inputEventDispatcher",
+    "signature": "48 8D 53 58 48 8B 0D *?? ?? ?? ?? E8 ?? ?? ?? ?? 90 48 8B C3 48 8B 5C 24 48 48 83 C4 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC5BD0",
+      "skyrimse_1_5_97.exe": "0x02EC5BD0"
+    },
+    "label": "g_inputManager",
+    "signature": "48 81 EC 88 00 00 00 49 C7 01 00 00 00 00 48 8B 05 *?? ?? ?? ?? 8B 88 18 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC5BD8",
+      "skyrimse_1_5_97.exe": "0x02EC5BD8"
+    },
+    "label": "g_playerControls",
+    "signature": "90 48 89 05 ?? ?? ?? ?? 48 83 3D *?? ?? ?? ?? ?? 75 ?? 48 8D 0D ?? ?? ?? ?? 48 89 4D 77 48 89 4D 6F"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F003F8",
+      "skyrimse_1_5_97.exe": "0x02F003F8"
+    },
+    "label": "g_menuControls",
+    "signature": "90 48 89 05 *?? ?? ?? ?? 48 83 3D ?? ?? ?? ?? ?? 75 ?? 48 8D 0D ?? ?? ?? ?? 48 89 4D 77 48 89 4D 6F"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EBEABC",
+      "skyrimse_1_5_97.exe": "0x01EBEABC"
+    },
+    "label": "g_invalidRefHandle",
+    "signature": "48 83 EC 38 48 C7 44 24 20 FE FF FF FF 8B 05 *?? ?? ?? ?? 89 44 24 40 48 8D 15 ?? ?? ?? ?? 48 8D 4C 24 40"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F011D0",
+      "skyrimse_1_5_97.exe": "0x02F011D0"
+    },
+    "label": "g_crosshairRefHandleHolder",
+    "signature": "48 8D 6C 24 D1 48 81 EC A8 00 00 00 48 C7 45 A7 FE FF FF FF 48 8B F9 48 89 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DEA01C",
+      "skyrimse_1_5_97.exe": "0x01DEA01C"
+    },
+    "label": "g_FaceGenTriDatabase",
+    "signature": "8B C1 41 8B EA 48 8D 0D *?? ?? ?? ?? 49 89 0C C0 FF 47 4C FF 4F 50 0F AE F0 44 89 57 5C"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0301D758",
+      "skyrimse_1_5_97.exe": "0x0301D758"
+    },
+    "label": "g_iniSettingCollection",
+    "signature": "4C 8B 35 *?? ?? ?? ?? 45 8B FC 4C 03 7D 00 41 8B 3F"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F6BA48",
+      "skyrimse_1_5_97.exe": "0x02F6BA48"
+    },
+    "label": "g_iniPrefSettingCollection",
+    "signature": "48 83 EC 28 E8 ?? ?? ?? ?? 48 8B 05 *?? ?? ?? ?? 48 83 C0 08 48 83 C4 28 C3"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC58B0",
+      "skyrimse_1_5_97.exe": "0x02EC58B0"
+    },
+    "label": "g_gameSettingCollection",
+    "signature": "48 83 3D *?? ?? ?? ?? ?? 75 ?? 83 3D ?? ?? ?? ?? ?? 74 ?? 48 8D 15 ?? ?? ?? ?? 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 45 33 C9 45 33 C0 BA 40 01 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DB3ED8",
+      "skyrimse_1_5_97.exe": "0x01DB3ED8"
+    },
+    "label": "g_mapLocalHeight",
+    "signature": "F3 0F 10 15 *?? ?? ?? ?? F3 0F 58 52 08 48 8B 41 50"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DF5430",
+      "skyrimse_1_5_97.exe": "0x01DF5430"
+    },
+    "label": "g_localMapMinFrustumWidth",
+    "signature": "90 48 8D 4C 24 58 E8 ?? ?? ?? ?? F3 0F 10 0D *?? ?? ?? ?? 0F 28 D1"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F38978",
+      "skyrimse_1_5_97.exe": "0x02F38978"
+    },
+    "label": "g_taskPool",
+    "signature": "48 89 18 48 89 78 08 48 89 58 10 48 89 05 *?? ?? ?? ?? 48 8B 5C 24 30"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F4C328",
+      "skyrimse_1_5_97.exe": "0x02F4C328"
+    },
+    "label": "g_containerMode",
+    "signature": "83 3D *?? ?? ?? ?? ?? 75 ?? 39 AE B0 00 00 00 76 ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0302BCC4",
+      "skyrimse_1_5_97.exe": "0x0302BCC4"
+    },
+    "label": "g_tintTextureWidth",
+    "signature": "48 8B D8 48 89 70 48 44 8B 05 ?? ?? ?? ?? 8B 15 *?? ?? ?? ?? 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 89 43 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0302BCC8",
+      "skyrimse_1_5_97.exe": "0x0302BCC8"
+    },
+    "label": "g_tintTextureHeight",
+    "signature": "48 8B D8 48 89 70 48 44 8B 05 *?? ?? ?? ?? 8B 15 ?? ?? ?? ?? 48 8D 0D ?? ?? ?? ?? E8 ?? ?? ?? ?? 48 89 43 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x005AEA18",
+      "skyrimse_1_5_97.exe": "0x005AEA18"
+    },
+    "label": "GFxLoaderHook::kCtor_Base",
+    "signature": "41 8B 1C 3E 89 9D F8 00 00 00 41 C7 04 3E 46 00 00 00 48 83 3D ?? ?? ?? ?? ?? 75 ?? 48 8D 0D ?? ?? ?? ?? 48 89 8D 08 01 00 00 48 89 4C 24 40 *E8 ?? ?? ?? ?? 90"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0176D0F0",
+      "skyrimse_1_5_97.exe": "0x0176D060"
+    },
+    "label": "s_NiTriShapeVtbl",
+    "signature": "48 8D 05 *?? ?? ?? ?? 48 89 03 48 8B C3 48 8B 5C 24 58 48 8B 74 24 68"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x0176D630",
+      "skyrimse_1_5_97.exe": "0x0176D5A0"
+    },
+    "label": "s_NiTriStripsVtbl",
+    "signature": "48 8D 05 *?? ?? ?? ?? 48 89 03 48 8B C3 48 8B 5C 24 68 48 8B 74 24 78"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F4C910",
+      "skyrimse_1_5_97.exe": "0x02F4C910"
+    },
+    "label": "g_worldToCamMatrix",
+    "signature": "0F 10 00 0F 11 05 *?? ?? ?? ?? 0F 10 48 10 0F 11 0D ?? ?? ?? ?? 0F 10 40 20"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F4DED0",
+      "skyrimse_1_5_97.exe": "0x02F4DED0"
+    },
+    "label": "g_viewPort",
+    "signature": "0F 10 83 74 01 00 00 C6 05 ?? ?? ?? ?? 01 0F 11 05 *?? ?? ?? ?? 0F AE E8"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x03028490",
+      "skyrimse_1_5_97.exe": "0x03028490"
+    },
+    "label": "g_renderManager",
+    "signature": "48 8B D8 48 89 70 48 44 8B 05 ?? ?? ?? ?? 8B 15 ?? ?? ?? ?? 48 8D 0D *?? ?? ?? ?? E8 ?? ?? ?? ?? 48 89 43 48"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x030136C0",
+      "skyrimse_1_5_97.exe": "0x030136C0"
+    },
+    "label": "g_shaderResourceManager",
+    "signature": "49 89 06 C6 40 10 01 48 8B 84 24 D0 02 00 00 48 8B 0D *?? ?? ?? ?? 4C 8B 09"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DB8910",
+      "skyrimse_1_5_97.exe": "0x01DB8910"
+    },
+    "label": "g_firstObScriptCommand",
+    "signature": "48 98 48 8D 3C 80 48 8D 05 *?? ?? ?? ?? 48 C1 E7 04"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01DC6F60",
+      "skyrimse_1_5_97.exe": "0x01DC6F60"
+    },
+    "label": "g_firstConsoleCommand",
+    "signature": "8B 54 24 30 4C 8D 2D *?? ?? ?? ?? 03 95 68 03 00 00 03 DF"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x031D07A8",
+      "skyrimse_1_5_97.exe": "0x031D07A8"
+    },
+    "label": "g_objectHandlePolicy",
+    "signature": "48 8B 05 *?? ?? ?? ?? 48 8B 38 48 8B CE E8 ?? ?? ?? ?? 48 8B D0 4C 8D 44 24 60"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EC3B78",
+      "skyrimse_1_5_97.exe": "0x01EC3B78"
+    },
+    "label": "g_skyrimVM",
+    "signature": "89 45 6F 41 C7 04 24 14 00 00 00 33 F6 8B DE 48 89 5C 24 58 48 8B 05 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x03032C50",
+      "skyrimse_1_5_97.exe": "0x03032C50"
+    },
+    "label": "g_scaleformHeap",
+    "signature": "89 47 2C 4C 89 7F 20 44 89 7F 28 48 8B 03 4C 0F 44 35 *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F257A0",
+      "skyrimse_1_5_97.exe": "0x02F257A0"
+    },
+    "label": "g_GFxLoader",
+    "signature": "41 8B 1C 3E 89 9D F8 00 00 00 41 C7 04 3E 46 00 00 00 48 83 3D *?? ?? ?? ?? ?? 75 ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02EC59B8",
+      "skyrimse_1_5_97.exe": "0x02EC59B8"
+    },
+    "label": "g_playerCamera",
+    "signature": "FF 90 F0 06 00 00 48 8B D5 48 8B 0D *?? ?? ?? ?? E8 ?? ?? ?? ?? B0 01"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EC3CE0",
+      "skyrimse_1_5_97.exe": "0x01EC3CE0"
+    },
+    "label": "IFormFactory::kFactoryList",
+    "signature": "48 8D 35 *?? ?? ?? ?? 48 8B FA 0F B6 D9 75 ?? 33 D2 41 B8 50 04 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F25250",
+      "skyrimse_1_5_97.exe": "0x02F25250"
+    },
+    "label": "g_inputStringHolder",
+    "signature": "48 8B 1D *?? ?? ?? ?? FF 50 10 48 8B 4B 38 48 39 08 75 ?? 0F 2E 77 28"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EC0A70",
+      "skyrimse_1_5_97.exe": "0x01EC0A70"
+    },
+    "label": "g_UIManager",
+    "signature": "48 81 C2 E8 00 00 00 45 33 C9 45 8D 41 03 48 8B 0D *?? ?? ?? ??"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x01EC0A78",
+      "skyrimse_1_5_97.exe": "0x01EC0A78"
+    },
+    "label": "g_UIStringHolder",
+    "signature": "84 C0 74 ?? 4C 8B 05 *?? ?? ?? ?? 49 8B 06 49 3B 80 F8 00 00 00"
+  },
+  {
+    "address": {
+      "skyrimse_1_5_80.exe": "0x02F27180",
+      "skyrimse_1_5_97.exe": "0x02F27180"
+    },
+    "label": "g_inventory3DManager",
+    "signature": "EB ?? 48 89 3D *?? ?? ?? ?? 89 79 08 66 C7 41 0C 00 00"
+  }
+]

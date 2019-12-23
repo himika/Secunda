@@ -51,6 +51,9 @@
     <Filter Include="Resource Files">
       <UniqueIdentifier>{a9a3d4a4-8830-4598-bbae-17211668479a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Signature Files">
+      <UniqueIdentifier>{ccf5c06c-60f8-4b8b-b80d-7702ee6718ce}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="pluginsdk\capstone\arm.h">
@@ -479,5 +482,11 @@
     <ResourceCompile Include="src\Secunda.rc">
       <Filter>Resource Files</Filter>
     </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="sigfile\SKYRIMSE_SIGNATURES.json">
+      <Filter>Signature Files</Filter>
+    </None>
+    <None Include="readme.md" />
   </ItemGroup>
 </Project>

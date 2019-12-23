@@ -10,7 +10,7 @@ enum {
 	PLUGIN_MENU_OPEN,
 	PLUGIN_MENU_SAVE,
 	PLUGIN_MEMU_SHOW_SIGNATURES,
-	PLUGIN_MEMU_MAKE_SIGNATURE,
+	PLUGIN_MEMU_CREATE_SIGNATURE,
 	PLUGIN_MEMU_REMOVE_SIGNATURE,
 	PLUGIN_MEMU_ANALYSE_RTTI
 };
@@ -58,7 +58,7 @@ static void MenuEntryCallback(CBTYPE Type, PLUG_CB_MENUENTRY* Info)
 	case PLUGIN_MEMU_SHOW_SIGNATURES:
 		Signature::Show();
 		break;
-	case PLUGIN_MEMU_MAKE_SIGNATURE:
+	case PLUGIN_MEMU_CREATE_SIGNATURE:
 		MakeSignature();
 		break;
 	case PLUGIN_MEMU_REMOVE_SIGNATURE:
@@ -97,7 +97,7 @@ static void MenuPrepareCallback(CBTYPE Type, PLUG_CB_MENUPREPARE* Info)
 		}
 	}
 
-	_plugin_menuentrysetvisible(pluginHandle, PLUGIN_MEMU_MAKE_SIGNATURE, !bDialogOpen);
+	_plugin_menuentrysetvisible(pluginHandle, PLUGIN_MEMU_CREATE_SIGNATURE, !bDialogOpen);
 	_plugin_menuentrysetvisible(pluginHandle, PLUGIN_MEMU_REMOVE_SIGNATURE, bSelectionOnLabel && bLabelHasSignature);
 }
 
@@ -138,7 +138,7 @@ namespace Plugin
 		_plugin_menuaddseparator(hMenu);
 		_plugin_menuaddentry(hMenu, PLUGIN_MEMU_ANALYSE_RTTI, "&Analyse RTTI");
 
-		_plugin_menuaddentry(hMenuDisasm, PLUGIN_MEMU_MAKE_SIGNATURE, "&Make signature");
+		_plugin_menuaddentry(hMenuDisasm, PLUGIN_MEMU_CREATE_SIGNATURE, "&Create signature");
 		_plugin_menuaddentry(hMenuDisasm, PLUGIN_MEMU_REMOVE_SIGNATURE, "&Remove signature");
 	}
 }
