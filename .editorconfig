@@ -1,0 +1,6 @@
+root = true
+
+[*.{h,hxx,hpp,c,cpp,cxx}]
+charset = utf-8-bom
+indent_size = 4
+trim_trailing_whitespace = true
